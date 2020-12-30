@@ -18,7 +18,7 @@ app.use(morgan("common"));
 app.use(helmet());
 app.use(
 	cors({
-		origin: process.env.CORS_ORIGIN,
+		// origin: process.env.CORS_ORIGIN,
 	})
 );
 app.use(express.json());
